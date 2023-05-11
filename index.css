@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bar{
+    width: 25px;
+    height: 5px;
+    margin-bottom: 1px;
+    background-color: black;
+    
+}
+.hamburger{
+    display: none;
+}
+.parent{
+    margin-top: 30px;
+    min-height: 70vh;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 200px;
+    padding-left: 30px;
+    word-spacing: 30px;
+}
+.main-biz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-left{
+    width: 30%;
+    margin-left: 70px;
+   
+}
+.second-right{
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+  
+}
+.second-left h4{
+    color: orange;
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+.second-left h5{
+    font-size: 40px;
+}
+.second-left > p{
+    padding-top: 20px;
+    color: gray;
+    font-size: 10px;
+    width: 60%;
+}
+.numbers{
+    display: flex;
+    padding-top: 20px;
+}
+.fifty{
+    color: orange;
+    padding-left: 20px;
+}
+.price p+p{
+    color: gray;
+    margin-top: 10px;
+}
+.one{
+    padding-right: 30px;
+    color: orange;
+    font-weight: bolder;
+}
+.two{
+    padding-right: 30px;
+}
+.three{
+    padding-right: 30px;
+    color: orange;
+    font-weight: bolder;
+}
+.signs{
+    display: flex;  
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.bottom-number{
+    display: flex;
+    justify-content: space-between;
+
+}
+button{
+    padding: 8px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    border-style: none;
+    margin-top: 20px;
+}
+.bottom-images{
+    margin-left: 240px;
+    margin-top: 20px;
+
+}
+.first{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.second{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.third{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.fourth{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+@media screen and (max-width: 500px) {
+    .main-biz{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-left{
+        width: 100%;
+        margin-left: 70px;
+       
+    }
+    .signs{
+        display: flex;  
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    button{
+        background-color: orange;
+        border-radius: 10px;
+        color: white;
+        border-style: none;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .bottom-images{
+        margin-left: 30px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .parent{
+        margin-top: 30px;
+        min-height: 100vh;
+        width: 100%;
+    }
+    .nav-link{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 30px;
+        width: 100%;
+        height: 500px;
+        background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        display: none;
+    }
+    .maim{
+        position: absolute;
+        left: 100px;
+        right: 0;
+        top: 100px;
+        width: 70%;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .hamburger{
+        display: block;
+        position: absolute;
+        right: 20px;
+        margin-top: 10px;
+    }
+}
